@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* focus ring */
+:root { --ring: 0 0% 0%; }
+.dark { --ring: 0 0% 100%; }
+
+@layer components {
+  .focus-ring { @apply outline-none ring-2 ring-offset-2 ring-blue-500 ring-offset-white dark:ring-offset-gray-900; }
+}

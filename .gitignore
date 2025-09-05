@@ -1,0 +1,7 @@
+node_modules
+dist
+.storybook-static
+.vscode
+.env
+.DS_Store
+/meter
